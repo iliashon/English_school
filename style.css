@@ -1,4 +1,5 @@
 /* reset */
+
 body {
     font-family: 'Rubik', sans-serif;
     margin: 0;
@@ -53,6 +54,7 @@ ul, ol {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+/* preview */
 .main__preview {
     display: flex;
     justify-content: space-between;
@@ -135,6 +137,7 @@ ul, ol {
 .main__preview-about {
     width: 47%;
 }
+/* our results */
 .main__our-results h2 {
     text-align: center;
     font-family: 'Rubik';
@@ -168,4 +171,394 @@ ul, ol {
 .results-list-item {
     width: 23%;
 }
+/* our team */
+.main__team-list-item img {
+    width: 140px;
+
+}
+.team-teacher-photo-wrapper {
+    width: 140px;
+    height: 140px;
+}
+.team-teacher-photo-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.main__team h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2377CC;
+}
+.main__team h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #0496FF;
+}
+.main__team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    height: 30em;
+}
+.team-teacher-about h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+.team-teacher-about h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #95A1BB;
+}
+.team-teacher-about p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363940;
+}
+.main__team-list-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-teacher-about {
+    width: 60%;
+    margin-left: 7%;
+}
+/* portfolio */
+.main__portfolio-text h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2377CC;
+}
+.main__portfolio-text h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #54BBF1;
+    width: 40%;
+}
+.main__portfolio-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__portfolio-list {
+    overflow: hidden;
+    margin: 0 -5px -20px;
+}
+.portfolio-list-item {
+    width: 45%;
+    height: 220px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 20px;
+    float: left;
+  }
+.big {
+    height: 460px;
+    width: 32%;
+  } 
+.small {
+    height: 220px;
+    width: 18%;
+}
+.main__portfolio-list-item:nth-child(10n + 4),
+.main__portfolio-list-item:nth-child(10n + 7) {
+    float: right;
+}
+.gallery {
+    background: url(/assets/img/gallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-a {
+    background: url(/assets/img/gallery1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-b {
+    background: url(/assets/img/gallery2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-s {
+    background: url(/assets/img/gallery3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+}
+.gallery-d {
+    background: url(/assets/img/gallery4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+/* price */
+.main__price > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2377CC;
+}
+.main__price > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #54BBF1;
+}
+.main__price-list {
+    display: flex;
+    justify-content: space-between;
+}
+.main__price-list-item-enroll {
+    width: 48%;
+    border: 1px solid #2377CC;
+    border-radius: 10px;
+    text-align: center;
+}
+.main__price-list-item-get {
+    width: 48%;
+    border: 1px solid #E1E5EE;
+    border-radius: 10px;
+    text-align: center;
+}
+.price-list-item-btn-get {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #006BA6;
+    border: 1px solid #006BA6;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 2em;
+}
+.price-list-item-btn-enroll {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #006BA6;
+    border-radius: 4px;
+    border: 0;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 2em;
+}
+.main__price-list-item-enroll > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-enroll > h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2377CC;
+}
+.main__price-list-item-enroll > h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-get > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-get > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #95A1BB;
+}
+.main__price-list-item-get > h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+/* registration */
+.main__registation-form > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2377CC;
+}
+.main__registation-form > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #54BBF1;
+}
+.main__registation-form {
+    width: 45%;
+    margin-top: 2em;
+}
+.order__input {
+    border: 1px solid #CAD1E1;
+    border-radius: 4px;
+    width: 96.5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    margin-top: 2em;
+    height: 3.5em;
+    padding-left: 15px;
+}
+.order__form-btn {
+    background: #2377CC;
+    border-radius: 4px;
+    border: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 1em;
+    width: 100%;
+    height: 3em;
+}
+.main__registration-img-bg {
+    width: 50%;
+    height: 45em;
+    background: url(/assets/img/registration.png);
+    border-radius: 30px;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.main__registration {
+    display: flex;
+    justify-content: space-between;
+}
+.registration {
+    margin-top: 2em;
+}
+/* contact */
+/* .contact {
+    background: #0496FF;
+    box-shadow: 0px -10px 10px 10px #0496ff;
+    margin-top: 3em;
+} */
+.footer {
+    background: #0496FF;
+    box-shadow: 0px -10px 10px 10px #0496ff;
+    margin-top: 3em;
+}
+.footer__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__contact-messenger-list {
+    display: flex;
+    gap: 2em;
+}
+.footer__contact > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer__contact-info > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
 /* id */
+
+/* placeholder */
+input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+  }
