@@ -299,31 +299,31 @@ ul, ol {
     float: right;
 }
 .gallery {
-    background: url(./assets/img/gallery.png);
+    background: url(../assets/img/gallery.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-a {
-    background: url(./assets/img/gallery1.png);
+    background: url(../assets/img/gallery1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-b {
-    background: url(./assets/img/gallery2.png);
+    background: url(../assets/img/gallery2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-s {
-    background: url(./assets/img/gallery3.png);
+    background: url(../assets/img/gallery3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 70%;
 }
 .gallery-d {
-    background: url(./assets/img/gallery4.png);
+    background: url(../assets/img/gallery4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
