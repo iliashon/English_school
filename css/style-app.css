@@ -2,6 +2,7 @@
 @media screen and (min-width: 320px) and (max-width: 950px) {
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Rubik', sans-serif;
@@ -59,6 +60,7 @@ ul, ol {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 /* preview */
 .main__preview {
@@ -123,7 +125,7 @@ ul, ol {
     border: 0;
     width: 45%;
     height: 60px;
-
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__preview-btn {
     display: flex;
@@ -287,16 +289,15 @@ ul, ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0.83% 1.65%;
     float: left;
   }
 .big {
-    height: 446.2px;
+    height: 446.5px;
     width: 32%;
   } 
 .small {
     height: 220px;
-    width: 17%;
+    width: 20%;
 }
 .main__portfolio-list-item:nth-child(10n + 4),
 .main__portfolio-list-item:nth-child(10n + 7) {
@@ -307,12 +308,15 @@ ul, ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
+    margin-right: 2%;
 }
 .gallery-a {
     background: url(../assets/img/gallery1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 .gallery-b {
     background: url(../assets/img/gallery2.png);
@@ -325,6 +329,7 @@ ul, ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 70%;
+    margin-right: 2%;
 }
 .gallery-d {
     background: url(../assets/img/gallery4.png);
@@ -401,6 +406,7 @@ ul, ol {
     width: 50%;
     height: 4em;
     margin-bottom: 2em;
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -462,6 +468,7 @@ ul, ol {
     font-size: 36px;
     line-height: 43px;
     color: #006BA6;
+    margin: 0;
 }
 .main__registation-form > h4 {
     font-family: 'Rubik';
@@ -470,15 +477,17 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     color: #0496FF;
+    margin: 1em 0 0;
 }
 .main__registation-form {
     width: 100%;
-    margin-top: 2em;
+    margin: 0;
+    text-align: center;
 }
 .order__input {
     border: 1px solid #CAD1E1;
     border-radius: 4px;
-    width: 96.5%;
+    width: 95%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -505,6 +514,7 @@ ul, ol {
     margin-top: 1em;
     width: 100%;
     height: 3em;
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__registration-img-bg {
     width: 50%;

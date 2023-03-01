@@ -46,7 +46,6 @@ ul, ol {
     width: 112px;
     height: 36px;
     border: 0;
-    background: #006BA6;
     border-radius: 4px;
     font-family: 'Rubik';
     font-style: normal;
@@ -58,6 +57,8 @@ ul, ol {
     text-transform: uppercase;
     color: #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
+    transition-duration: 1s;
 }
 /* preview */
 .main__preview {
@@ -123,6 +124,7 @@ ul, ol {
     width: 45%;
     height: 60px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__preview-btn {
     display: flex;
@@ -400,6 +402,7 @@ ul, ol {
     width: 30%;
     height: 4em;
     margin-bottom: 2em;
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -505,6 +508,7 @@ ul, ol {
     width: 100%;
     height: 3em;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__registration-img-bg {
     width: 50%;
