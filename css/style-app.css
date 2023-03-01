@@ -1,5 +1,5 @@
 /* reset */
-
+@media screen and (min-width: 320px) and (max-width: 950px) {
 body {
     font-family: 'Rubik', sans-serif;
     margin: 0;
@@ -13,9 +13,9 @@ ul, ol {
 }
 /* class */
 .container {
-    width: 1210px;
+    width: 100vw;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 .header__nav {
     display: flex;
@@ -25,7 +25,9 @@ ul, ol {
 .header__nav-bar {
     display: flex;
     align-items: center;
-    gap: 5em;
+    column-gap: 3em;
+    padding: 0;
+    display: none;
 }
 .nav-bar-list-link {
     font-family: 'Rubik';
@@ -133,9 +135,10 @@ ul, ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
+    display: none;
 }
 .main__preview-about {
-    width: 47%;
+    width: 100%;
 }
 /* our results */
 .main__our-results h2 {
@@ -145,20 +148,20 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__results-list {
-    display: flex;
+    display: block;
     padding: 0;
-    justify-content: space-between;
 }
 .main__results-list h3 {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 1.5em;
     line-height: 43px;
     color: #0496FF;
+    margin: 0;
 }
 .main__results-list p {
     font-family: 'Rubik';
@@ -167,9 +170,11 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     color: #95A1BB;
+    margin: 0.2em;
 }
 .results-list-item {
-    width: 23%;
+    width: 100%;
+    text-align: center;
 }
 /* our team */
 .main__team-list-item img {
@@ -193,7 +198,7 @@ ul, ol {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__team h5 {
     font-family: 'Rubik';
@@ -205,10 +210,8 @@ ul, ol {
     color: #0496FF;
 }
 .main__team-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10%;
-    height: 30em;
+    display: block;
+    align-content: center;
 }
 .team-teacher-about h3 {
     font-family: 'Rubik';
@@ -238,7 +241,6 @@ ul, ol {
 }
 .main__team-list-item {
     display: flex;
-    flex-wrap: wrap;
 }
 .team-teacher-about {
     width: 60%;
@@ -251,7 +253,7 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__portfolio-text h4 {
     font-family: 'Rubik';
@@ -260,7 +262,7 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     text-align: right;
-    color: #54BBF1;
+    color: #0496FF;
     width: 40%;
 }
 .main__portfolio-text {
@@ -270,26 +272,27 @@ ul, ol {
 }
 .main__portfolio-list {
     overflow: hidden;
-    margin: 0 -5px -20px;
+    margin: 0 0.5em -20px;
+    width: 100%;
 }
 .portfolio-list-item {
-    width: 45%;
+    width: 44%;
     height: 220px;
     background: #000;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px 20px;
+    margin: 0 0.83% 1.65%;
     float: left;
   }
 .big {
-    height: 460px;
+    height: 446.2px;
     width: 32%;
   } 
 .small {
     height: 220px;
-    width: 18%;
+    width: 17%;
 }
 .main__portfolio-list-item:nth-child(10n + 4),
 .main__portfolio-list-item:nth-child(10n + 7) {
@@ -333,7 +336,7 @@ ul, ol {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__price > h4 {
     font-family: 'Rubik';
@@ -342,15 +345,16 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #54BBF1;
+    color: #0496FF;
 }
 .main__price-list {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .main__price-list-item-enroll {
     width: 48%;
-    border: 1px solid #2377CC;
+    border: 1px solid #006BA6;
     border-radius: 10px;
     text-align: center;
 }
@@ -373,7 +377,7 @@ ul, ol {
     border: 1px solid #006BA6;
     border-radius: 4px;
     background-color: #fff;
-    width: 30%;
+    width: 50%;
     height: 4em;
     margin-bottom: 2em;
 }
@@ -390,7 +394,7 @@ ul, ol {
     background: #006BA6;
     border-radius: 4px;
     border: 0;
-    width: 30%;
+    width: 50%;
     height: 4em;
     margin-bottom: 2em;
 }
@@ -405,10 +409,10 @@ ul, ol {
 }
 .main__price-list-item-enroll > h2 {
     font-weight: 500;
-    font-size: 36px;
+    font-size: 1.5em;
     line-height: 43px;
     text-align: center;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__price-list-item-enroll > h5 {
     font-family: 'Rubik';
@@ -432,7 +436,7 @@ ul, ol {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 1.5em;
     line-height: 43px;
     text-align: center;
     color: #95A1BB;
@@ -453,7 +457,7 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #2377CC;
+    color: #006BA6;
 }
 .main__registation-form > h4 {
     font-family: 'Rubik';
@@ -461,10 +465,10 @@ ul, ol {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #54BBF1;
+    color: #0496FF;
 }
 .main__registation-form {
-    width: 45%;
+    width: 100%;
     margin-top: 2em;
 }
 .order__input {
@@ -507,33 +511,35 @@ ul, ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
+    display: none;
 }
 .main__registration {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .registration {
     margin-top: 2em;
 }
 /* contact */
-/* .contact {
+.contact {
     background: #0496FF;
-    box-shadow: 0px -10px 10px 10px #0496ff;
-    margin-top: 3em;
-} */
-.footer {
-    background: #0496FF;
-    box-shadow: 0px -10px 10px 10px #0496ff;
+    box-shadow: 0px -10px 10px 10px #0496FF;
     margin-top: 3em;
 }
 .footer__contact {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    text-align: center;
 }
 .footer__contact-messenger-list {
     display: flex;
     gap: 2em;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
 }
 .footer__contact > h2 {
     font-family: 'Rubik';
@@ -551,6 +557,9 @@ ul, ol {
     line-height: 22px;
     color: #FFFFFF;
 }
+.footer__contact-info {
+    width: 100%;
+}
 /* id */
 
 /* placeholder */
@@ -562,3 +571,35 @@ input::placeholder {
     line-height: 22px;
     color: #95A1BB;
   }
+/* modal */
+.modal{
+    position:fixed;top:0;left:0;z-index:1050;display: none; width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,.5)
+}
+.modal__dialog{
+    max-width:500px;margin:8em auto
+}
+.modal__content{
+    position:relative;width:100%;padding:40px;background-color:#fff;border:1px solid rgba(0,0,0,.2);border-radius:30px;max-height:80vh;overflow-y:auto
+}
+.modal__close{
+    position:absolute;top:8px;right:14px;font-size:30px;color:#000;opacity:.5;font-weight:700;border:none;background-color:transparent;cursor:pointer
+}
+.modal__content > h2 {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+color: #006BA6;
+}
+.modal__content > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0496FF;
+}
+}
+
+

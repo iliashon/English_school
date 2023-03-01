@@ -1,0 +1,598 @@
+/* reset */
+@media screen and (min-width: 950px) {
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+/* class */
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 3em;
+    padding: 0;
+}
+.nav-bar-list-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #363940;
+}
+.header__btn-try {
+    width: 112px;
+    height: 36px;
+    border: 0;
+    background: #006BA6;
+    border-radius: 4px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* preview */
+.main__preview {
+    display: flex;
+    justify-content: space-between;
+}
+.main__preview-about h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 68px;
+    color: #006BA6;
+    margin: 0.5em 0;
+}
+.main__preview-about h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0496FF;
+    margin: 0.5em 0;
+}
+.main__preview-about-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.main__preview-about-content img {
+    width: 48px;
+    height: 48px;
+}
+.main__preview-about-content h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+.main__preview-about-content span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #95A1BB;
+}
+.main__preview-btn-item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #006BA6;
+    border-radius: 4px;
+    border: 0;
+    width: 45%;
+    height: 60px;
+
+}
+.main__preview-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.main__preview-img-bg {
+    width: 50%;
+    height: 35em;
+    background: url(/assets/img/Fun\ people.jpg);
+    border-radius: 30px;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.main__preview-about {
+    width: 47%;
+}
+/* our results */
+.main__our-results h2 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #006BA6;
+}
+.main__results-list {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.main__results-list h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #0496FF;
+}
+.main__results-list p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+}
+.results-list-item {
+    width: 23%;
+}
+/* our team */
+.main__team-list-item img {
+    width: 140px;
+
+}
+.team-teacher-photo-wrapper {
+    width: 140px;
+    height: 140px;
+}
+.team-teacher-photo-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.main__team h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #006BA6;
+}
+.main__team h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #0496FF;
+}
+.main__team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    height: 30em;
+    align-content: center;
+}
+.team-teacher-about h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+.team-teacher-about h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #95A1BB;
+}
+.team-teacher-about p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363940;
+}
+.main__team-list-item {
+    display: flex;
+}
+.team-teacher-about {
+    width: 60%;
+    margin-left: 7%;
+}
+/* portfolio */
+.main__portfolio-text h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #006BA6;
+}
+.main__portfolio-text h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #0496FF;
+    width: 40%;
+}
+.main__portfolio-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__portfolio-list {
+    overflow: hidden;
+    margin: 0 0.5em -20px;
+    width: 100%;
+}
+.portfolio-list-item {
+    width: 44%;
+    height: 220px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.83% 1.65%;
+    float: left;
+  }
+.big {
+    height: 460px;
+    width: 32%;
+  } 
+.small {
+    height: 220px;
+    width: 17%;
+}
+.main__portfolio-list-item:nth-child(10n + 4),
+.main__portfolio-list-item:nth-child(10n + 7) {
+    float: right;
+}
+.gallery {
+    background: url(/assets/img/gallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-a {
+    background: url(/assets/img/gallery1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-b {
+    background: url(/assets/img/gallery2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.gallery-s {
+    background: url(/assets/img/gallery3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+}
+.gallery-d {
+    background: url(/assets/img/gallery4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+/* price */
+.main__price > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #006BA6;
+}
+.main__price > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #0496FF;
+}
+.main__price-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main__price-list-item-enroll {
+    width: 48%;
+    border: 1px solid #006BA6;
+    border-radius: 10px;
+    text-align: center;
+}
+.main__price-list-item-get {
+    width: 48%;
+    border: 1px solid #E1E5EE;
+    border-radius: 10px;
+    text-align: center;
+}
+.price-list-item-btn-get {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #006BA6;
+    border: 1px solid #006BA6;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 2em;
+}
+.price-list-item-btn-enroll {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #006BA6;
+    border-radius: 4px;
+    border: 0;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 2em;
+}
+.main__price-list-item-enroll > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-enroll > h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #006BA6;
+}
+.main__price-list-item-enroll > h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-get > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+.main__price-list-item-get > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #95A1BB;
+}
+.main__price-list-item-get > h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #363940;
+}
+/* registration */
+.main__registation-form > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #006BA6;
+}
+.main__registation-form > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0496FF;
+}
+.main__registation-form {
+    width: 45%;
+    margin-top: 2em;
+}
+.order__input {
+    border: 1px solid #CAD1E1;
+    border-radius: 4px;
+    width: 96.5%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    margin-top: 2em;
+    height: 3.5em;
+    padding-left: 15px;
+}
+.order__form-btn {
+    background: #2377CC;
+    border-radius: 4px;
+    border: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 1em;
+    width: 100%;
+    height: 3em;
+}
+.main__registration-img-bg {
+    width: 50%;
+    height: 45em;
+    background: url(/assets/img/registration.png);
+    border-radius: 30px;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.main__registration {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.registration {
+    margin-top: 2em;
+}
+/* contact */
+.contact {
+    background: #0496FF;
+    box-shadow: 0px -10px 10px 10px #0496FF;
+    margin-top: 3em;
+}
+.footer__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer__contact-messenger-list {
+    display: flex;
+    gap: 2em;
+}
+.footer__contact > h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer__contact-info > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer__contact-info {
+    width: 35%;
+}
+/* id */
+
+/* placeholder */
+input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+  }
+/* modal */
+.modal{
+    position:fixed;top:0;left:0;z-index:1050;display: none; width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,.5)
+}
+.modal__dialog{
+    max-width:500px;margin:8em auto
+}
+.modal__content{
+    position:relative;width:100%;padding:40px;background-color:#fff;border:1px solid rgba(0,0,0,.2);border-radius:30px;max-height:80vh;overflow-y:auto
+}
+.modal__close{
+    position:absolute;top:8px;right:14px;font-size:30px;color:#000;opacity:.5;font-weight:700;border:none;background-color:transparent;cursor:pointer
+}
+.modal__content > h2 {
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+color: #006BA6;
+}
+.modal__content > h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0496FF;
+}
+}
+
