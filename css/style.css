@@ -128,7 +128,7 @@ ul, ol {
 .main__preview-img-bg {
     width: 50%;
     height: 35em;
-    background: url(/assets/img/Fun\ people.jpg);
+    background: url(./assets/img/Fun\ people.jpg);
     border-radius: 30px;
     filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
     background-repeat: no-repeat;
@@ -298,31 +298,31 @@ ul, ol {
     float: right;
 }
 .gallery {
-    background: url(/assets/img/gallery.png);
+    background: url(./assets/img/gallery.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-a {
-    background: url(/assets/img/gallery1.png);
+    background: url(./assets/img/gallery1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-b {
-    background: url(/assets/img/gallery2.png);
+    background: url(./assets/img/gallery2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
 }
 .gallery-s {
-    background: url(/assets/img/gallery3.png);
+    background: url(./assets/img/gallery3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 70%;
 }
 .gallery-d {
-    background: url(/assets/img/gallery4.png);
+    background: url(./assets/img/gallery4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50%;
@@ -504,7 +504,7 @@ ul, ol {
 .main__registration-img-bg {
     width: 50%;
     height: 45em;
-    background: url(/assets/img/registration.png);
+    background: url(./assets/img/registration.png);
     border-radius: 30px;
     filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
     background-repeat: no-repeat;
