@@ -276,7 +276,7 @@ ul, ol {
 }
 .main__portfolio-list {
     overflow: hidden;
-    margin: 0 0.5em -20px;
+    margin: 0 0 -20px;
     width: 100%;
 }
 .portfolio-list-item {
