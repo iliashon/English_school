@@ -587,18 +587,44 @@ input::placeholder {
   }
 /* modal */
 .modal{
-    position:fixed;top:0;left:0;z-index:1050;display: none; width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,.5)
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1050;
+    display: none;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-color:rgba(0,0,0,.5)
 }
 .modal__dialog{
-    max-width:500px;margin:8em auto
+    max-width:500px;
+    margin: 4em 0.5em;
 }
 .modal__content{
-    position:relative;width:100%;padding:40px;background-color:#fff;border:1px solid rgba(0,0,0,.2);border-radius:30px;max-height:80vh;overflow-y:auto
+    position:relative;
+    width:94%;
+    padding:3%;
+    background-color:#fff;
+    border:1px solid rgba(0,0,0,.2);
+    border-radius:30px;
+    max-height:80vh;
+    overflow-y:auto
 }
 .modal__close{
-    position:absolute;top:8px;right:14px;font-size:30px;color:#000;opacity:.5;font-weight:700;border:none;background-color:transparent;cursor:pointer
+    position:absolute;
+    top:8px;
+    right:14px;
+    font-size:30px;
+    color:#000;
+    opacity:.5;
+    font-weight:700;
+    border:none;
+    background-color:transparent;
+    cursor:pointer
 }
 .modal__content > h2 {
+    width: 100%;
     font-family: 'Rubik';
 font-style: normal;
 font-weight: 500;
@@ -607,6 +633,7 @@ line-height: 43px;
 color: #006BA6;
 }
 .modal__content > h4 {
+    width: 100%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
