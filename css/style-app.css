@@ -487,7 +487,7 @@ ul, ol {
 .order__input {
     border: 1px solid #CAD1E1;
     border-radius: 4px;
-    width: 95%;
+    width: 94%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -498,6 +498,10 @@ ul, ol {
     height: 3.5em;
     padding-left: 15px;
 }
+.order__form {
+    width: 95%;
+    margin: 0 auto;
+} 
 .order__form-btn {
     background: #2377CC;
     border-radius: 4px;
