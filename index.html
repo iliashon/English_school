@@ -259,17 +259,18 @@
                 <div data-close class="modal__close">&times;</div>
                 <h2>Registration</h2>
                 <h4>Failure will never overtake me if my determination to succeed is strong enough. </h4>
-                <form action="#" class="order__form">
-                    <input required placeholder="Last name" name="last-name" type="text" class="order__input">
-                    <input required placeholder="First name" name="first-name" type="phone" class="order__input">
+                <form action="./telegram/send.php" method="post" class="order__form">
+                    <input required placeholder="Last name" name="lastName" type="text" class="order__input">
+                    <input required placeholder="First name" name="firstName" type="phone" class="order__input">
                     <input required placeholder="Telegram" type="text" name="telegram" class="order__input">
                     <input required placeholder="Number" type="text" name="phone" class="order__input">
                     <button class="order__form-btn btn_dark btn_min">try</button>
+                    <input type="hidden" name="act" value="order">
                 </form>
             </div>
         </div>
     </div>
-    <script src="/js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
