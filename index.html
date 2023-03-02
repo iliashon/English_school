@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
-        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style-app.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>English Class</title>
@@ -204,13 +205,13 @@
                     <div class="main__registation-form">
                         <h2>Registration</h2>
                         <h4>Failure will never overtake me if my determination to succeed is strong enough. </h4>
-                        <form action="#" class="order__form">
-                            <input required placeholder="Last name" name="last-name" type="text" class="order__input">
-                            <input required placeholder="First name" name="first-name" type="phone"
-                                class="order__input">
+                        <form action="./telegram/send.php" method="post" class="order__form">
+                            <input required placeholder="Last name" name="lastName" type="text" class="order__input">
+                            <input required placeholder="First name" name="firstName" type="phone" class="order__input">
                             <input required placeholder="Telegram" type="text" name="telegram" class="order__input">
                             <input required placeholder="Number" type="text" name="phone" class="order__input">
                             <button class="order__form-btn btn_dark btn_min">try</button>
+                            <input type="hidden" name="act" value="order">
                         </form>
                     </div>
                     <div class="main__registration-img-bg"></div>
