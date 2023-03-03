@@ -27,6 +27,10 @@ function closeModal() {
     document.body.style.overflow = '';
     document.body.style.position = '';
     document.body.style.width = '';
+    sending.style.display = 'none';
+    done.style.display = 'none';
+    cross.style.display = 'none';
+    registr.style.display = 'block';
 }
 
 modalCloseBtn.addEventListener('click', closeModal);
