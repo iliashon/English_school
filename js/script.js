@@ -113,6 +113,7 @@ function postData(form) {
 
 function sendingBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
   (doneBlock, crossBlock, registrBlock).style.display = 'none';
+  modalBlock.style.display = 'block';
   sendBlock.style.display = 'block';
 }
 function successfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
@@ -122,7 +123,7 @@ function successfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, moda
     (sendBlock, crossBlock, doneBlock).style.display = 'none';
     modalBlock.style.display = 'none';
     registrBlock.style.display = 'block';
-  }, 2000);
+  }, 5000);
 }
 function unsuccessfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
   (doneBlock, registrBlock, sendBlock).style.display = 'none';
@@ -131,6 +132,6 @@ function unsuccessfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, mo
     (sendBlock, doneBlock, crossBlock).style.display = 'none';
     modalBlock.style.display = 'none';
     registrBlock.style.display = 'block';
-  }, 2000);
+  }, 5000);
 }
 });
