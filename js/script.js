@@ -10,9 +10,12 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
 
 function openModal() {
     modal.style.display = 'block';
-    document.body.style.overflow = 'hidden';
     document.body.style.position = 'fixed';
-    document.body.style.width = '100%';
+    document.body.style.width = '99.115%';
+    if (window.innerWidth <= 950) {
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+  }
     // clearInterval(modalTimerId);
 }
 

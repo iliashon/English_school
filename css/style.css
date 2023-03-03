@@ -1,5 +1,8 @@
 /* reset */
 @media screen and (min-width: 950px) {
+/* ::-webkit-scrollbar {
+     width: 0;
+} */
 html {
     scroll-behavior: smooth;
 }
