@@ -49,15 +49,18 @@ function showModalByScroll() {
 window.addEventListener('scroll', showModalByScroll);
 
 // Forms
+       
+const forms = document.querySelectorAll('form'),
+      sending = document.querySelector('.modal-content-sending'),
+      done = document.querySelector('.modal-content-done'),
+      cross = document.querySelector('.modal-content-cross'),
+      registr = document.querySelector('.modal-content-registr');
 
-        
-const forms = document.querySelectorAll('form');
-
-const message = {
-  loading: 'Загрузка',
-  success: 'Спасибо! Скоро мы с вами свяжемся',
-  failure: 'Что-то пошло не так...'
-};
+// const message = {
+//   loading: sendingBlock(sending, done, cross, registr),
+//   success: successfullyBlock(sending, done, cross, registr),
+//   failure: unsuccessfullyBlock(sending, done, cross, registr)
+// };
 
 forms.forEach(item => {
   postData(item);
@@ -69,7 +72,7 @@ function postData(form) {
 
     const statusMassage = document.createElement('div');
     statusMassage.classList.add('status');
-    statusMassage.textContent = message.loading;
+    statusMassage.textContent = sendingBlock(sending, done, cross, registr, modal);
     form.append(statusMassage);
 
     const request = new XMLHttpRequest();
@@ -90,15 +93,38 @@ function postData(form) {
     request.addEventListener('load', () => {
       if (request.status === 200){
         console.log(request.response);
-        statusMassage.textContent = message.success;
+        statusMassage.textContent = successfullyBlock(sending, done, cross, registr, modal);
         form.reset();
         setTimeout(() => {
           statusMassage.remove();
         }, 2000);
       } else {
-        statusMassage.textContent = message.failure;
+        statusMassage.textContent = unsuccessfullyBlock(sending, done, cross, registr, modal);
       }
     });
   });
+}
+
+function sendingBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
+  (doneBlock, crossBlock, registrBlock).style.display = 'none';
+  sendBlock.style.display = 'block';
+}
+function successfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
+  (registrBlock, crossBlock, sendBlock).style.display = 'none';
+  doneBlock.style.display = 'block';
+  setTimeout(() => {
+    (sendBlock, crossBlock, doneBlock).style.display = 'none';
+    modalBlock.style.display = 'none';
+    registrBlock.style.display = 'block';
+  }, 2000);
+}
+function unsuccessfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, modalBlock) {
+  (doneBlock, registrBlock, sendBlock).style.display = 'none';
+  crossBlock.style.display = 'block';
+  setTimeout(() => {
+    (sendBlock, doneBlock, crossBlock).style.display = 'none';
+    modalBlock.style.display = 'none';
+    registrBlock.style.display = 'block';
+  }, 2000);
 }
 });
