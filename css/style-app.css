@@ -49,7 +49,7 @@ ul, ol {
     width: 112px;
     height: 36px;
     border: 0;
-    background: #006BA6;
+    background: #DA0101;
     border-radius: 4px;
     font-family: 'Rubik';
     font-style: normal;
@@ -60,7 +60,6 @@ ul, ol {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 /* preview */
 .main__preview {
@@ -82,7 +81,7 @@ ul, ol {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #0496FF;
+    color: #DA0101;
     margin: 0.5em 0;
 }
 .main__preview-about-content {
@@ -108,7 +107,7 @@ ul, ol {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #95A1BB;
+    color: #363940;
 }
 .main__preview-btn-item {
     font-family: 'Rubik';
@@ -120,12 +119,11 @@ ul, ol {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #006BA6;
+    background: #DA0101;
     border-radius: 4px;
     border: 0;
     width: 45%;
     height: 60px;
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__preview-btn {
     display: flex;
@@ -154,7 +152,7 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__results-list {
     display: block;
@@ -175,7 +173,7 @@ ul, ol {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #95A1BB;
+    color: #363940;
     margin: 0.2em;
 }
 .results-list-item {
@@ -204,7 +202,7 @@ ul, ol {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__team h5 {
     font-family: 'Rubik';
@@ -213,7 +211,7 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #0496FF;
+    color: #363940;
 }
 .main__team-list {
     display: block;
@@ -259,7 +257,7 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__portfolio-text h4 {
     font-family: 'Rubik';
@@ -345,7 +343,7 @@ ul, ol {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__price > h4 {
     font-family: 'Rubik';
@@ -354,7 +352,7 @@ ul, ol {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #0496FF;
+    color: #363940;
 }
 .main__price-list {
     display: flex;
@@ -406,7 +404,6 @@ ul, ol {
     width: 50%;
     height: 4em;
     margin-bottom: 2em;
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -467,7 +464,7 @@ ul, ol {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
     margin: 0;
 }
 .main__registation-form > h4 {
@@ -476,7 +473,7 @@ ul, ol {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #0496FF;
+    color: #363940;
     margin: 1em 0 0;
 }
 .main__registation-form {
@@ -503,7 +500,7 @@ ul, ol {
     margin: 0 auto;
 } 
 .order__form-btn {
-    background: #2377CC;
+    background: #DA0101;
     border-radius: 4px;
     border: 0;
     font-family: 'Rubik';
@@ -518,7 +515,6 @@ ul, ol {
     margin-top: 1em;
     width: 100%;
     height: 3em;
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
     padding: 0;
 }
 .main__registration-img-bg {
@@ -542,8 +538,7 @@ ul, ol {
 }
 /* contact */
 .contact {
-    background: #0496FF;
-    box-shadow: 0px -10px 10px 10px #0496FF;
+    background: #006BA6;
     margin-top: 3em;
 }
 .footer__contact {
@@ -552,6 +547,7 @@ ul, ol {
     align-items: center;
     width: 100%;
     text-align: center;
+    padding-top: 0.5em;
 }
 .footer__contact-messenger-list {
     display: flex;
@@ -567,6 +563,7 @@ ul, ol {
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    margin: 0;
 }
 .footer__contact-info > p {
     font-family: 'Rubik';
@@ -635,7 +632,7 @@ input::placeholder {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
 }
 .modal__content  h4 {
     width: 100%;
@@ -644,7 +641,7 @@ input::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #0496FF;
+    color: #363940;
 }
 
 /* modal sending*/
