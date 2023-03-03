@@ -61,7 +61,10 @@ button {
     color: #FFFFFF;
     background: #DA0101;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+}
+.header__btn-try:hover {
+    background: #006BA6;
 }
 /* preview */
 .preview {
@@ -133,6 +136,10 @@ button {
     width: 45%;
     height: 60px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    transition: 0.5s;
+}
+.main__preview-btn-item:hover {
+    background: #006BA6;
 }
 .main__preview-btn {
     display: flex;
@@ -381,6 +388,11 @@ button {
     width: 30%;
     height: 4em;
     margin-bottom: 2em;
+    transition: 0.5s;
+}
+.price-list-item-btn-get:hover {
+    border: 1px solid #DA0101;
+    color: #DA0101;
 }
 .price-list-item-btn-enroll {
     font-family: 'Rubik';
@@ -398,6 +410,10 @@ button {
     width: 30%;
     height: 4em;
     margin-bottom: 2em;
+    transition: 0.5s;
+}
+.price-list-item-btn-enroll:hover {
+    background: #DA0101;
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -503,6 +519,10 @@ button {
     width: 100%;
     height: 3em;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    transition: 0.5s;
+}
+.order__form-btn:hover {
+    background: #006BA6;
 }
 .main__registration-img-bg {
     width: 50%;
