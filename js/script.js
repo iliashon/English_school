@@ -11,6 +11,8 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
 function openModal() {
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
     // clearInterval(modalTimerId);
 }
 
@@ -21,6 +23,8 @@ modalTrigger.forEach(btn => {
 function closeModal() {
     modal.style.display = 'none';
     document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.width = '';
 }
 
 modalCloseBtn.addEventListener('click', closeModal);
