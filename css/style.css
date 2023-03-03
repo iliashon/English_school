@@ -180,6 +180,7 @@ button {
 }
 .results-list-item {
     width: 23%;
+    text-align: center;
 }
 /* our team */
 .main__team-list-item img {
@@ -467,6 +468,7 @@ button {
     font-size: 36px;
     line-height: 43px;
     color: #006BA6;
+    margin: 0;
 }
 .main__registation-form > h4 {
     font-family: 'Rubik';
@@ -478,7 +480,6 @@ button {
 }
 .main__registation-form {
     width: 45%;
-    margin-top: 2em;
 }
 .order__input {
     border: 1px solid #CAD1E1;
@@ -515,7 +516,6 @@ button {
 }
 .main__registration-img-bg {
     width: 50%;
-    height: 45em;
     background: url(../assets/img/registration.png);
     border-radius: 30px;
     filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
