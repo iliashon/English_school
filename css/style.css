@@ -59,8 +59,8 @@ button {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    background: #DA0101;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
     transition-duration: 1s;
 }
 /* preview */
@@ -83,7 +83,7 @@ button {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #0496FF;
+    color: #DA0101;
     margin: 0.5em 0;
 }
 .main__preview-about-content {
@@ -109,7 +109,7 @@ button {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #95A1BB;
+    color: #6F7585;
 }
 .main__preview-btn-item {
     font-family: 'Rubik';
@@ -121,13 +121,12 @@ button {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #006BA6;
+    background: #DA0101;
     border-radius: 4px;
     border: 0;
     width: 45%;
     height: 60px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__preview-btn {
     display: flex;
@@ -155,7 +154,7 @@ button {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__results-list {
     display: flex;
@@ -176,7 +175,7 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #95A1BB;
+    color: #6F7585;
 }
 .results-list-item {
     width: 23%;
@@ -204,7 +203,7 @@ button {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__team h5 {
     font-family: 'Rubik';
@@ -213,7 +212,7 @@ button {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #0496FF;
+    color: #6F7585;
 }
 .main__team-list {
     display: grid;
@@ -262,17 +261,7 @@ button {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
-}
-.main__portfolio-text h4 {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: right;
-    color: #0496FF;
-    width: 40%;
+    color: #DA0101;
 }
 .main__portfolio-text {
     display: flex;
@@ -345,7 +334,7 @@ button {
     font-size: 36px;
     line-height: 43px;
     text-align: center;
-    color: #006BA6;
+    color: #DA0101;
 }
 .main__price > h4 {
     font-family: 'Rubik';
@@ -354,7 +343,7 @@ button {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #0496FF;
+    color: #6F7585;
 }
 .main__price-list {
     display: flex;
@@ -406,7 +395,6 @@ button {
     width: 30%;
     height: 4em;
     margin-bottom: 2em;
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -467,7 +455,7 @@ button {
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
-    color: #006BA6;
+    color: #DA0101;
     margin: 0;
 }
 .main__registation-form > h4 {
@@ -476,7 +464,7 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #0496FF;
+    color: #6F7585;
 }
 .main__registation-form {
     width: 45%;
@@ -496,7 +484,7 @@ button {
     padding-left: 15px;
 }
 .order__form-btn {
-    background: #2377CC;
+    background: #DA0101;
     border-radius: 4px;
     border: 0;
     font-family: 'Rubik';
@@ -512,7 +500,6 @@ button {
     width: 100%;
     height: 3em;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
-    background-image: linear-gradient(0deg, #0496FF 0%, #006BA6 97%);
 }
 .main__registration-img-bg {
     width: 50%;
@@ -533,8 +520,7 @@ button {
 }
 /* contact */
 .contact {
-    background: #0496FF;
-    box-shadow: 0px -10px 10px 10px #0496FF;
+    background: #006BA6;
     margin-top: 3em;
 }
 .footer__contact {
@@ -596,7 +582,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 43px;
-color: #006BA6;
+color: #DA0101;
 }
 .modal__content > h4 {
     font-family: 'Rubik';
@@ -604,7 +590,7 @@ color: #006BA6;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #0496FF;
+    color: #6F7585;
 }
 }
 
