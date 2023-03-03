@@ -602,18 +602,18 @@ input::placeholder {
     overflow:hidden;
     background-color:rgba(0,0,0,.5)
 }
-.modal__dialog{
-    max-width:500px;
-    margin: 4em 0.5em;
-}
 .modal__content{
-    position:relative;
-    width:94%;
-    padding:3%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 500px;
+    min-width: 260px;
+    transform: translate(-50%, -50%);
+    padding:40px;
     background-color:#fff;
     border:1px solid rgba(0,0,0,.2);
     border-radius:30px;
-    max-height:80vh;
+    max-height:70vh;
     overflow-y:auto
 }
 .modal__close{
@@ -628,16 +628,16 @@ input::placeholder {
     background-color:transparent;
     cursor:pointer
 }
-.modal__content > h2 {
+.modal__content  h2 {
     width: 100%;
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 43px;
-color: #006BA6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #006BA6;
 }
-.modal__content > h4 {
+.modal__content  h4 {
     width: 100%;
     font-family: 'Rubik';
     font-style: normal;
