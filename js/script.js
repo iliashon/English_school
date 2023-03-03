@@ -10,8 +10,7 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
 
 function openModal() {
     modal.style.display = 'block';
-    document.body.style.position = 'fixed';
-    document.body.style.width = '99.115%';
+    document.body.style.overflow = 'hidden';
     if (window.innerWidth <= 950) {
       document.body.style.position = 'fixed';
       document.body.style.width = '100%';
