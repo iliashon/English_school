@@ -1,10 +1,10 @@
 <?php
 
 //В переменную $token нужно вставить токен, который нам прислал @botFather
-$token = "5729610781:AAFD2_OACBp72beO9LUQuQs09VZy4SAnuSw";
+$token = "token";
 
 //Сюда вставляем chat_id
-$chat_id = "-1001739007459";
+$chat_id = "id";
 
 //Определяем переменные для передачи данных из нашей формы
 $_POST = json_decode(file_get_contents("php://input"), true);
