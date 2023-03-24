@@ -138,4 +138,8 @@ function unsuccessfullyBlock (sendBlock, doneBlock, crossBlock, registrBlock, mo
     registrBlock.style.display = 'block';
   }, 5000);
 }
+$(document).ready(function(){
+  $('.slider').slick({
+  });
+});
 });
