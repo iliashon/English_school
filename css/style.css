@@ -272,9 +272,12 @@ button {
     font-size: 36px;
     line-height: 43px;
     color: #DA0101;
+    text-align: center;
 }
 .slider {
     position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 .slider .slick-arrow{
     position: absolute;
