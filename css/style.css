@@ -292,11 +292,11 @@ button {
 }
 .slider .slick-arrow.slick-prev {
     left: 0;
-    background: url(../assets/svg/Chevron\ Left.svg) 0 0 / 100% no-repeat;
+    background: url(../assets/svg/ChevronLeft.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
-    background: url(../assets/svg/Chevron\ Right.svg) 0 0 / 100% no-repeat;
+    background: url(../assets/svg/ChevronRight.svg) 0 0 / 100% no-repeat;
 }
 .slider__item img {
     object-fit: cover;
@@ -472,9 +472,11 @@ button {
     height: 2em;
     transform: rotate(45deg);
     transition: 0.5s;
+    cursor: pointer;
 }
 .main__faq-title span {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .main__faq-que-wrapper {
     display: block;
@@ -498,19 +500,6 @@ button {
 .input-check:checked ~ .main__faq-title{
     color: #DA0101;
 }
-
-/* @media (max-width: 820px){
-    body {
-        font-size: 0.7em;
-    }
-}
-
-@media (max-width: 320px){
-    body {
-        font-size: 0.5em;
-    }
-} */
-
 
 /* registration */
 .main__registation-form > h2 {
