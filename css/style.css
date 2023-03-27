@@ -481,7 +481,8 @@ button {
 .main__faq-que-wrapper {
     display: block;
     font-size: 0;
-    transition: 0.5s;
+    height: 0;
+    transition: 0.3s;
     text-align: left;
 }
 .main__faq-title {
@@ -492,6 +493,7 @@ button {
 }
 .input-check:checked ~ .main__faq-que-wrapper{
     font-size: 1em;
+    height: 5em;
     margin: 1em 0;
 }
 .input-check:checked ~ .main__faq-title .main__cross{
