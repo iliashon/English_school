@@ -417,6 +417,63 @@ ul, ol {
     text-align: center;
     color: #363940;
 }
+/* faq */
+
+.faq-section h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #DA0101;
+    text-align: center;
+}
+.main__faq-content {
+    border-top: 0.15em solid #e9e9e9;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #006BA6;
+}
+.main__cross {
+    width: 2em;
+    height: 2em;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.main__faq-title span {
+    font-size: 1.5em;
+    text-align: left;
+}
+.main__faq-que-wrapper {
+    display: block;
+    font-size: 0;
+    transition: 0.5s;
+    text-align: left;
+}
+.main__faq-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.7em 0;
+}
+.input-check:checked ~ .main__faq-que-wrapper{
+    font-size: 1em;
+    margin: 1em 0;
+}
+.input-check:checked ~ .main__faq-title .main__cross{
+    transform: rotate(0deg);
+}
+.input-check:checked ~ .main__faq-title{
+    color: #DA0101;
+}
+
 /* registration */
 .main__registation-form > h2 {
     font-family: 'Rubik';
