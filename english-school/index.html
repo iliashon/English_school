@@ -347,9 +347,9 @@
             </h4>
             <form action="./telegram/send.php" method="post" class="order__form">
               <input required placeholder="Last name" name="lastName" type="text" class="order__input">
-              <input required placeholder="First name" name="firstName" type="tel" class="order__input">
-              <input required placeholder="Telegram" type="text" name="telegram" class="order__input">
-              <input required placeholder="Number" type="text" name="phone" class="order__input">
+              <input required placeholder="First name" name="firstName" type="text" class="order__input">
+              <input required placeholder="Telegram @englishclass" type="text" name="telegram" pattern="^@([a-zA-Z0-9_-]*)" class="order__input">
+              <input required placeholder="Number +995591445431" type="tel" name="phone" pattern="^\+([0-9_-]*)" class="order__input">
               <button class="order__form-btn btn_dark btn_min">try</button>
               <input type="hidden" name="act" value="order">
             </form>
@@ -408,7 +408,7 @@
           <form action="./telegram/send.php" method="post" class="order__form">
             <input required placeholder="Last name" name="lastName" type="text" class="order__input">
             <input required placeholder="First name" name="firstName" type="tel" class="order__input">
-            <input required placeholder="Telegram" type="text" name="telegram" class="order__input">
+            <input required placeholder="Telegram" type="text" name="telegram" pattern="^@" class="order__input">
             <input required placeholder="Number" type="text" name="phone" class="order__input">
             <button class="order__form-btn btn_dark btn_min">try</button>
             <input type="hidden" name="act" value="order">
