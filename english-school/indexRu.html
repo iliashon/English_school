@@ -36,22 +36,22 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase column-gap-5  w-100 justify-content-center">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#nav-team">about</a>
+                <a class="nav-link" aria-current="page" href="#nav-team">О нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#nav-gallery">gallery</a>
+                <a class="nav-link" href="#nav-gallery">Галерея</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#nav-price">pricing</a>
+                <a class="nav-link" href="#nav-price">Цены</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#nav-contact">contact</a>
+                <a class="nav-link" href="#nav-contact">Контакты</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">+995591445431</a>
+                <a class="nav-link" href="tel:+995591445431">+995591445431</a>
               </li>
             </ul>
-            <button onclick="document.location='./index.html'" class="header__btn-try">EN</button>
+            <button onclick="document.location='./index.html'" class="header__btn-lang">EN</button>
           </div>
         </div>
       </nav>
@@ -127,7 +127,7 @@
           <section class="main__team">
             <h2>Наша команда</h2>
             <h5>
-                Неудача никогда не постигнет меня, если моя решимость добиться успеха достаточно сильна.
+              Преподаватели английского языка обладают высокой квалификацией и опытом работы с учениками разных уровней
             </h5>
             <div class="main__team-list">
               <div class="main__team-list-item">
@@ -186,7 +186,7 @@
         <div class="container">
           <section class="main__portfolio">
             <div class="main__portfolio-text">
-              <h2>Portflio</h2>
+              <h2>Галерея</h2>
             </div>
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
@@ -215,8 +215,8 @@
       <div class="price" id="nav-price">
         <div class="container">
           <section class="main__price">
-            <h2>Планы, которые масштабируются вместе с вашей командой</h2>
-            <h4>Попробуйте бесплатный урок. Оплата не требуется.</h4>
+            <h2>Наши цены</h2>
+            <h4>Попробуйте пробный урок.</h4>
             <div class="main__price-list">
               <div class="main__price-list-item-get">
                 <h4>Команды</h4>
@@ -242,7 +242,7 @@
       </div>
       <div class="faq">
         <section class="faq-section container">
-          <h3>FAQ</h3>
+          <h3>Часто задаваемые вопросы</h3>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -349,9 +349,9 @@
         <div class="container">
           <section class="main__registration">
             <div class="main__registation-form">
-              <h2>Регистрация</h2>
+              <h2>Заявка на консультацию</h2>
               <h4>
-                Неудача никогда не постигнет меня, если моя решимость добиться успеха достаточно сильна.
+                Неудача никогда не постигнет тебя, если твоя решимость добиться успеха достаточно сильна.
               </h4>
               <form
                 action="./telegram/send.php"
@@ -360,33 +360,33 @@
               >
                 <input
                   required
-                  placeholder="Last name"
+                  placeholder="Имя"
                   name="lastName"
                   type="text"
                   class="order__input"
                 >
                 <input
                   required
-                  placeholder="First name"
+                  placeholder="Фамилия"
                   name="firstName"
                   type="text"
                   class="order__input"
                 >
                 <input
                   required
-                  placeholder="Telegram"
-                  type="url"
+                  placeholder="Телеграм: @englishclass"
+                  type="text"
                   name="telegram"
                   class="order__input"
                 >
                 <input
                   required
-                  placeholder="Number"
+                  placeholder="Номер: +995591445431"
                   type="tel"
                   name="phone"
                   class="order__input"
                 >
-                <button class="order__form-btn btn_dark btn_min">Попробовать</button>
+                <button class="order__form-btn btn_dark btn_min">Отправить</button>
                 <input type="hidden" name="act" value="order">
               </form>
             </div>
@@ -399,15 +399,17 @@
       <div class="contact" id="nav-contact">
         <div class="container">
           <section class="footer__contact">
-            <h2>Contacts</h2>
+            <h2>Контакты</h2>
             <div class="footer__contact-info">
               <p>
-                Parmen Loria street, 2, Batumi, Autonomous Republic of Adjara<br>+995591445431<br>english.class@gmail.com
+                <a href="https://yandex.com.ge/maps/-/CCUsb0r0dD" target="_blank">Parmen Loria street, 2, Batumi, Autonomous Republic of Adjara</a><br>
+                <a class="footer__number" href="tel:+995591445431">+995591445431</a><br>
+                <a href="mailto:english.class@gmail.com">english.class@gmail.com</a>
               </p>
             </div>
             <ul class="footer__contact-messenger-list">
               <li class="contact-messenger-item">
-                <a href="" class="contact-messenger-item-link">
+                <a href="" class="contact-messenger-item-link" target="_blank">
                   <img
                     src="./assets/svg/WhatsApp.svg"
                     alt=""
@@ -416,7 +418,7 @@
                 </a>
               </li>
               <li class="contact-messenger-item">
-                <a href="" class="contact-messenger-item-link">
+                <a href="" class="contact-messenger-item-link" target="_blank">
                   <img
                     src="./assets/svg/TelegramApp.svg"
                     alt=""
@@ -425,7 +427,7 @@
                 </a>
               </li>
               <li class="contact-messenger-item">
-                <a href="" class="contact-messenger-item-link">
+                <a href="" class="contact-messenger-item-link" target="_blank">
                   <img
                     src="./assets/svg/FacebookF.svg"
                     alt=""
@@ -434,7 +436,7 @@
                 </a>
               </li>
               <li class="contact-messenger-item">
-                <a href="" class="contact-messenger-item-link">
+                <a href="" class="contact-messenger-item-link" target="_blank">
                   <img
                     src="./assets/svg/Instagram.svg"
                     alt=""
@@ -452,11 +454,7 @@
         <div class="modal__content animate__animated animate__zoomIn">
           <div class="modal-content-registr">
             <div data-close class="modal__close">&times;</div>
-            <h2>Registration</h2>
-            <h4>
-              Failure will never overtake me if my determination to succeed is
-              strong enough.
-            </h4>
+            <h2>Заявка на консультацию</h2>
             <form
               action="./telegram/send.php"
               method="post"
@@ -464,33 +462,33 @@
             >
               <input
                 required
-                placeholder="Last name"
+                placeholder="Имя"
                 name="lastName"
                 type="text"
                 class="order__input"
               >
               <input
                 required
-                placeholder="First name"
+                placeholder="Фамилия"
                 name="firstName"
                 type="text"
                 class="order__input"
               >
               <input
                 required
-                placeholder="Telegram"
+                placeholder="Телеграм: @englishclass"
                 type="url"
                 name="telegram"
                 class="order__input"
               >
               <input
                 required
-                placeholder="Number"
+                placeholder="Номер: +995591445431"
                 type="tel"
                 name="phone"
                 class="order__input"
               >
-              <button class="order__form-btn btn_dark btn_min">try</button>
+              <button class="order__form-btn btn_dark btn_min">Отправить</button>
               <input type="hidden" name="act" value="order">
             </form>
           </div>
@@ -502,7 +500,7 @@
             <svg class="animated-check" viewBox="0 0 24 24">
               <path d="M4.1 12.7L9 17.6 20.3 6.3" fill="none" />
             </svg>
-            <h2>Your application has been sent</h2>
+            <h2>Консультант свяжеться с вами в ближайшее время</h2>
           </div>
           <div class="modal-content-cross">
             <svg
@@ -523,7 +521,7 @@
                 d="M14.1 14.1l23.8 23.8 m0,-23.8 l-23.8,23.8"
               />
             </svg>
-            <h2>Your application has been sent</h2>
+            <h2>Не удалось отправить, попробуйте позже</h2>
           </div>
         </div>
       </div>

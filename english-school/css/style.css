@@ -423,7 +423,7 @@ button {
 .order__input {
     border: 1px solid #CAD1E1;
     border-radius: 20px;
-    width: 96.5%;
+    width: 100%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -549,7 +549,11 @@ input::placeholder {
     border:1px solid rgba(0,0,0,.2);
     border-radius:30px;
     max-height:80vh;
+    overflow: auto;
 }
+.modal__content::-webkit-scrollbar {
+    width: 0;
+  }
 .modal__close{
     position:absolute;
     top:8px;
