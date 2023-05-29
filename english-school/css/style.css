@@ -525,6 +525,10 @@ button {
     font-size: 14px;
     line-height: 22px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__contact-info  a {
+    color: white;
 }
 .footer__contact-info {
     width: 35%;
