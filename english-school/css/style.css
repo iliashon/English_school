@@ -263,6 +263,9 @@ button {
     height: 100%;
     object-fit: cover;
 }
+.carousel-inner {
+    border-radius: 20px;
+}
 
 /* price */
 .main__price > h2 {
