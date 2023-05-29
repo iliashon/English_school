@@ -23,29 +23,7 @@ button {
     margin: 0 auto;
     padding: 0 10px;
 }
-.header__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header__nav-bar {
-    display: flex;
-    align-items: center;
-    column-gap: 3em;
-    padding: 0;
-}
-.nav-bar-list-link {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
-    text-align: right;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #363940;
-}
-.header__btn-try {
+.header__btn-lang {
     width: 112px;
     height: 36px;
     border: 0;
@@ -63,7 +41,7 @@ button {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 0.5s;
 }
-.header__btn-try:hover {
+.header__btn-lang:hover {
     background: #006BA6;
 }
 /* preview */
@@ -372,6 +350,7 @@ button {
 }
 .price-list-item-btn-enroll:hover {
     background: #DA0101;
+    color: white;
 }
 .main__price-list-item-enroll > h4 {
     font-family: 'Rubik';
@@ -525,6 +504,10 @@ button {
     font-size: 14px;
     line-height: 22px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__contact-info  a {
+    color: white;
 }
 .footer__contact-info {
     width: 35%;
