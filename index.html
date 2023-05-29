@@ -25,14 +25,14 @@
 
   <body>
     <header class="header">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./assets/svg/logo.svg" alt="" id="header-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase column-gap-5">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase column-gap-5  w-100 justify-content-center">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#nav-team">about</a>
               </li>
@@ -48,8 +48,8 @@
               <li class="nav-item">
                 <a class="nav-link">+995591445431</a>
               </li>
-              <button onclick="document.location='./indexRu.html'" class="header__btn-try">RU</button>
             </ul>
+            <button onclick="document.location='./indexRu.html'" class="header__btn-try">RU</button>
           </div>
         </div>
       </nav>
@@ -191,22 +191,26 @@
             <div class="main__portfolio-text">
               <h2>Portflio</h2>
             </div>
-            <div class="slider">
-              <div class="slider__item">
-                <img src="./assets/img/gallery.png" alt="">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/img/gallery.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/gallery1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/gallery2.png" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="slider__item">
-                <img src="./assets/img/gallery1.png" alt="">
-              </div>
-              <div class="slider__item">
-                <img src="./assets/img/gallery2.png" alt="">
-              </div>
-              <div class="slider__item">
-                <img src="./assets/img/gallery3.png" alt="">
-              </div>
-              <div class="slider__item">
-                <img src="./assets/img/gallery4.png" alt="">
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </section>
         </div>
