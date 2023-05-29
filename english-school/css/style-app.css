@@ -494,7 +494,7 @@ ul, ol {
 .order__input {
     border: 1px solid #CAD1E1;
     border-radius: 4px;
-    width: 94%;
+    width: 100%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -575,7 +575,7 @@ ul, ol {
     color: #FFFFFF;
     margin: 0;
 }
-.footer__contact-info > p {
+.footer__contact-info a {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -616,13 +616,16 @@ input::placeholder {
     max-width: 500px;
     min-width: 300px;
     transform: translate(-50%, -50%);
-    padding:40px;
+    padding:30px;
     background-color:#fff;
     border:1px solid rgba(0,0,0,.2);
     border-radius:30px;
     max-height:70vh;
     overflow-y:auto
 }
+.modal__content::-webkit-scrollbar {
+    width: 0;
+  }
 .modal__close{
     position:absolute;
     top:8px;
