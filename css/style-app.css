@@ -22,6 +22,10 @@ ul, ol {
     margin: 0 auto;
     padding: 0 5px;
 }
+.navbar-collapse {
+    text-align: center;
+    padding-bottom: 1em;
+}
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -359,6 +363,7 @@ ul, ol {
     line-height: 22px;
     text-align: center;
     color: #363940;
+    margin-top: 1em;
 }
 .main__price-list-item-enroll > h2 {
     font-weight: 500;
@@ -384,6 +389,7 @@ ul, ol {
     line-height: 22px;
     text-align: center;
     color: #363940;
+    margin-top: 1em;
 }
 .main__price-list-item-get > h2 {
     font-family: 'Rubik';
@@ -608,7 +614,7 @@ input::placeholder {
     top: 50%;
     left: 50%;
     max-width: 500px;
-    min-width: 260px;
+    min-width: 300px;
     transform: translate(-50%, -50%);
     padding:40px;
     background-color:#fff;

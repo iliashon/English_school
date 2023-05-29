@@ -49,14 +49,14 @@ document.addEventListener('keydown', (e) => {
 
 // const modalTimerId = setTimeout(openModal, 5000);
 
-function showModalByScroll() {
-    if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
-        openModal();
-        window.removeEventListener('scroll', showModalByScroll);
-    }
-}
+// function showModalByScroll() {
+//     if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
+//         openModal();
+//         window.removeEventListener('scroll', showModalByScroll);
+//     }
+// }
 
-window.addEventListener('scroll', showModalByScroll);
+// window.addEventListener('scroll', showModalByScroll);
 
 // Forms
        
