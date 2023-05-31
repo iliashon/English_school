@@ -4,8 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   // modal
 
   const modalTrigger = document.querySelectorAll("[data-modal]"),
-    modal = document.querySelector(".modal"),
-    modalCloseBtn = document.querySelector("[data-close]");
+    modal = document.querySelector(".modal");
 
   function openModal() {
     modal.style.display = "block";
@@ -29,10 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
     sending.style.display = "none";
     done.style.display = "none";
     cross.style.display = "none";
-    registr.style.display = "block";
   }
-
-  modalCloseBtn.addEventListener("click", closeModal);
 
   modal.addEventListener("click", (e) => {
     if (e.target === modal) {
@@ -53,8 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const forms = document.querySelectorAll("form"),
     sending = document.querySelector(".modal-content-sending"),
     done = document.querySelector(".modal-content-done"),
-    cross = document.querySelector(".modal-content-cross"),
-    registr = document.querySelector(".modal-content-registr");
+    cross = document.querySelector(".modal-content-cross");
 
   // const message = {
   //   loading: sendingBlock(sending, done, cross, registr),
@@ -76,7 +71,6 @@ window.addEventListener("DOMContentLoaded", () => {
         sending,
         done,
         cross,
-        registr,
         modal
       );
       form.append(statusMassage);
@@ -98,12 +92,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
       request.addEventListener("load", () => {
         if (request.status === 200) {
-          console.log(request.response);
           statusMassage.textContent = successfullyBlock(
             sending,
             done,
             cross,
-            registr,
             modal
           );
           form.reset();
@@ -127,20 +119,18 @@ window.addEventListener("DOMContentLoaded", () => {
     sendBlock,
     doneBlock,
     crossBlock,
-    registrBlock,
     modalBlock
   ) {
-    (doneBlock, crossBlock, registrBlock).style.display = "none";
+    (doneBlock, crossBlock).style.display = "none";
     modalBlock.style.display = "block";
     sendBlock.style.display = "block";
   }
   function successfullyBlock(
     sendBlock,
     doneBlock,
-    crossBlock,
-    registrBlock,
+    crossBlock
   ) {
-    (registrBlock, crossBlock, sendBlock).style.display = "none";
+    (crossBlock, sendBlock).style.display = "none";
     doneBlock.style.display = "block";
     setTimeout(() => {
       closeModal();
@@ -149,10 +139,9 @@ window.addEventListener("DOMContentLoaded", () => {
   function unsuccessfullyBlock(
     sendBlock,
     doneBlock,
-    crossBlock,
-    registrBlock,
+    crossBlock
   ) {
-    (doneBlock, registrBlock, sendBlock).style.display = "none";
+    (doneBlock, sendBlock).style.display = "none";
     crossBlock.style.display = "block";
     setTimeout(() => {
       closeModal();

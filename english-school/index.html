@@ -111,7 +111,7 @@
                 >
                   More
                 </button>
-                <button data-modal class="main__preview-btn-item">
+                <button class="main__preview-btn-item" onclick="window.location.href = '#nav-contact';">
                   try now
                 </button>
               </div>
@@ -302,7 +302,7 @@
                 <h2>&#8382;30/lesson</h2>
                 <h5>Trial lesson</h5>
                 <h5>Up to 8 people in a group</h5>
-                <button data-modal class="price-list-item-btn-get">
+                <button class="price-list-item-btn-get" onclick="window.location.href = '#nav-contact';">
                   Get Started
                 </button>
               </div>
@@ -311,7 +311,7 @@
                 <h2>&#8382;200/month</h2>
                 <h5>Group training</h5>
                 <h5>Up to 8 people in a group</h5>
-                <button data-modal class="price-list-item-btn-enroll btn">
+                <button class="price-list-item-btn-enroll btn" onclick="window.location.href = '#nav-contact';">
                   enroll
                 </button>
               </div>
@@ -439,14 +439,14 @@
               >
                 <input
                   required
-                  placeholder="Last name"
+                  placeholder="First name"
                   name="lastName"
                   type="text"
                   class="order__input"
                 />
                 <input
                   required
-                  placeholder="First name"
+                  placeholder="Last name"
                   name="firstName"
                   type="text"
                   class="order__input"
@@ -515,15 +515,6 @@
                 </a>
               </li>
               <li class="contact-messenger-item">
-                <a href="" class="contact-messenger-item-link" target="_blank">
-                  <img
-                    src="./assets/svg/FacebookF.svg"
-                    alt=""
-                    class="contact-messenger-item-link-img"
-                  />
-                </a>
-              </li>
-              <li class="contact-messenger-item">
                 <a
                   href="https://www.instagram.com/englishclass.batumi/"
                   target="_blank"
@@ -544,47 +535,6 @@
     <div class="modal">
       <div class="modal__dialog">
         <div class="modal__content animate__animated animate__zoomIn">
-          <div class="modal-content-registr">
-            <div data-close class="modal__close">&times;</div>
-            <h2>Application for consultation</h2>
-            <form
-              action="./telegram/send.php"
-              method="post"
-              class="order__form"
-            >
-              <input
-                required
-                placeholder="Last name"
-                name="lastName"
-                type="text"
-                class="order__input"
-              />
-              <input
-                required
-                placeholder="First name"
-                name="firstName"
-                type="tel"
-                class="order__input"
-              />
-              <input
-                required
-                placeholder="Telegram @englishclass"
-                type="text"
-                name="telegram"
-                pattern="^@"
-                class="order__input"
-              />
-              <input
-                required
-                placeholder="Number +995591445431"
-                type="text"
-                name="phone"
-                class="order__input"
-              />
-              <button class="order__form-btn btn_dark btn_min">send</button>
-              <input type="hidden" name="act" value="order" />
-            </form>
-          </div>
           <div class="modal-content-sending">
             <div class="donut"></div>
             <h2>Sending</h2>
