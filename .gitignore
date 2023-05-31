@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .php
+indexEN.html
 
 # testing
 /coverage
